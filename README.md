@@ -27,10 +27,10 @@ The dataset contains supply-chain information related to orders, customers, prod
 
 ## 4. Technologies Used
 
-- **Microsoft SQL Server** — database and data warehouse implementation.
-- **SQL Server Management Studio (SSMS)** — SQL development, data transformation, and validation.
-- **Microsoft Power BI** — interactive dashboards and business intelligence reporting.
-- **SQL** — data profiling, ETL, dimensional modelling, and analytical queries.
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Microsoft Power BI
+- SQL
 
 ## 5. Data Warehouse Architecture
 
@@ -114,15 +114,39 @@ The following results are documented in the project report.
 
 ## 10. Power BI Dashboards
 
-The project documentation describes five dashboard pages:
+The project includes five dashboard pages designed to support supply-chain analysis and business decision-making.
 
-1. **Executive Overview** — presents key performance indicators and shipment-status distribution.
-2. **Shipping & Customer Performance** — analyses shipping modes and customer segments.
-3. **Product & Category Performance** — examines product categories, sales, profit, and delivery risk.
-4. **Time & Trends** — analyses delivery performance over time.
-5. **Geographic Analysis** — compares delivery performance across markets and regions.
+### Dashboard 1: Executive Overview
 
-The dashboards support interactive filtering, multidimensional analysis, and drill-down functionality.
+![Executive Overview Dashboard](images/dashboard-1.png)
+
+Provides an overview of key performance indicators, sales, profit, and shipment status.
+
+### Dashboard 2: Shipping & Customer Performance
+
+![Shipping and Customer Performance Dashboard](images/dashboard-2.png)
+
+Analyses shipping modes, customer segments, and delivery performance.
+
+### Dashboard 3: Product & Category Performance
+
+![Product and Category Performance Dashboard](images/dashboard-3.png)
+
+Examines product categories, sales, profit, and delivery risk.
+
+### Dashboard 4: Time & Trends
+
+![Time and Trends Dashboard](images/dashboard-4.png)
+
+Analyses changes in sales and delivery performance over time.
+
+### Dashboard 5: Geographic Analysis
+
+![Geographic Analysis Dashboard](images/dashboard-5.png)
+
+Compares supply-chain and delivery performance across markets and geographical regions.
+
+**Note:** Upload your actual PNG screenshots into the `images` folder using the filenames shown above. The images will appear on GitHub when the file paths match.
 
 ## 11. Key Business Insights
 
@@ -141,13 +165,32 @@ The project report identifies several important findings:
 - Analyse delivery performance alongside sales and profit.
 - Use Power BI dashboards to monitor operational performance and support data-driven decisions.
 
-## 12. Conclusion
+## 12. Project Structure
+
+```text
+DataCo-Supply-Chain-DWBI/
+├── README.md
+├── images/
+│   ├── dashboard-1.png
+│   ├── dashboard-2.png
+│   ├── dashboard-3.png
+│   ├── dashboard-4.png
+│   └── dashboard-5.png
+├── sql/
+│   └── SQL scripts
+└── powerbi/
+    └── Power BI report (.pbix)
+```
+
+*This is a suggested structure. Adjust the filenames and folders to match your actual project.*
+
+## 13. Conclusion
 
 This project demonstrates the development of an end-to-end data warehousing and business intelligence solution, from source-data preparation and ETL to dimensional modelling, data mart creation, validation, and Power BI reporting.
 
 The solution provides a structured environment for analysing supply-chain performance and generating insights that can support operational and business decision-making.
 
-## 13. References
+## 14. References
 
 1. Constante, F., Silva, F., and Pereira, A. *DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS*. Mendeley Data, Version 5. [https://doi.org/10.17632/8gx2fvg2k6.5](https://doi.org/10.17632/8gx2fvg2k6.5)
 2. Kimball, R., and Ross, M. *The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling*, 3rd edition, Wiley, 2013.
@@ -156,5 +199,6 @@ The solution provides a structured environment for analysing supply-chain perfor
 
 ---
 
-**Course:** IT3101 – Data Warehousing and Business Intelligence  
+**Course:** IT3101 – Data Warehousing and Business Intelligence
+
 **Project Reference:** 2026-DS-65

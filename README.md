@@ -118,31 +118,31 @@ The project includes five dashboard pages designed to support supply-chain analy
 
 ### Dashboard 1: Executive Overview
 
-![Executive Overview Dashboard](images/dashboard-1.png)
+![Executive Overview Dashboard](image/1.png)
 
 Provides an overview of key performance indicators, sales, profit, and shipment status.
 
 ### Dashboard 2: Shipping & Customer Performance
 
-![Shipping and Customer Performance Dashboard](images/dashboard-2.png)
+![Shipping and Customer Performance Dashboard](image/2.png)
 
 Analyses shipping modes, customer segments, and delivery performance.
 
 ### Dashboard 3: Product & Category Performance
 
-![Product and Category Performance Dashboard](images/dashboard-3.png)
+![Product and Category Performance Dashboard](image/3.png)
 
 Examines product categories, sales, profit, and delivery risk.
 
 ### Dashboard 4: Time & Trends
 
-![Time and Trends Dashboard](images/dashboard-4.png)
+![Time and Trends Dashboard](image/4.png)
 
 Analyses changes in sales and delivery performance over time.
 
 ### Dashboard 5: Geographic Analysis
 
-![Geographic Analysis Dashboard](images/dashboard-5.png)
+![Geographic Analysis Dashboard](image/5.png)
 
 Compares supply-chain and delivery performance across markets and geographical regions.
 

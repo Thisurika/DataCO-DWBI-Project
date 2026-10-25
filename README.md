@@ -124,7 +124,7 @@ Provides an overview of key performance indicators, sales, profit, and shipment 
 
 ### Dashboard 2: Shipping & Customer Performance
 
-![Shipping and Customer Performance Dashboard](power bi sc/dashboard-2.png)
+![Shipping and Customer Performance Dashboard](images/dashboard-2.png)
 
 Analyses shipping modes, customer segments, and delivery performance.
 
